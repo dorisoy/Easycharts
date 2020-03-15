@@ -3,8 +3,8 @@ Easycharts is a very easy chart component based on skiasarp library, which can b
 
 # Screenshots
 
-![gallery](chenzhenghong/Easycharts/blob/master/Screenshots/1.png)
-![gallery](chenzhenghong/Easycharts/blob/master/Screenshots/2.png)
+![gallery](Easycharts/blob/master/Screenshots/1.png)
+![gallery](Easycharts/blob/master/Screenshots/2.png)
 
 
 ## Quickstart
@@ -64,7 +64,7 @@ Easycharts is a very easy chart component based on skiasarp library, which can b
 			};
 ```
 
-### 1. Page
+### 2. Page
 
 ```csharp
 protected override void OnAppearing()
@@ -82,7 +82,7 @@ protected override void OnAppearing()
 		}
   ```
   
-  ### 1. XAML
+  ### 3. XAML
   
   ```csharp
     <StackLayout Spacing="10"
