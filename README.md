@@ -3,8 +3,8 @@ Easycharts is a very easy chart component based on skiasarp library, which can b
 
 # Screenshots
 
-![gallery](Easycharts/blob/master/Screenshots/1.png)
-![gallery](Easycharts/blob/master/Screenshots/2.png)
+![gallery](Screenshots/1.png)
+![gallery](Screenshots/2.png)
 
 
 ## Quickstart
