@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:easycharts="clr-namespace:Easycharts.Forms;assembly=Easycharts.Forms"
+             xmlns:local="clr-namespace:Easycharts.Samples.Forms"
+             x:Class="Easycharts.Samples.Forms.MainPage">
+    <ScrollView>
+        <StackLayout Spacing="10"
+                     BackgroundColor="#EEEEEE">
+            <easycharts:ChartView x:Name="chart1"
+                                   HeightRequest="140"
+                                   BackgroundColor="White" />
+            <easycharts:ChartView x:Name="chart2"
+                                   HeightRequest="140"
+                                   BackgroundColor="White" />
+            <easycharts:ChartView x:Name="chart3"
+                                   HeightRequest="140"
+                                   BackgroundColor="White" />
+            <easycharts:ChartView x:Name="chart4"
+                                   HeightRequest="140"
+                                   BackgroundColor="White" />
+            <easycharts:ChartView x:Name="chart5"
+                                   HeightRequest="140"
+                                   BackgroundColor="White" />
+            <easycharts:ChartView x:Name="chart6"
+                                   HeightRequest="140"
+                                   BackgroundColor="White" />
+            <easycharts:ChartView x:Name="chart7"
+                                   HeightRequest="140"
+                                   BackgroundColor="White" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
