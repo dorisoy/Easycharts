@@ -10,6 +10,13 @@ Easycharts is a very simple Xamarin.Forms chart component based on skiasarp libr
 ![gallery](Screenshots/2.png)
 
 
+**SkiaSharp.Views.Forms (1.68.1.1)
+[![NuGet](https://img.shields.io/nuget/v/SkiaSharp.Views.Forms.svg?label=NuGet)](https://www.nuget.org/packages/SkiaSharp.Views.Forms/1.68.1.1)
+
+**Xamarin.Forms (4.5.0.356)**
+[![NuGet](https://img.shields.io/nuget/v/Xamarin.Forms.svg?label=NuGet)](https://www.nuget.org/packages/Xamarin.Forms/4.5.0.356)
+
+
 ## Quickstart
 
 ### 1. Data entries
