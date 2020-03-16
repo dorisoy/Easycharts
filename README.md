@@ -1,5 +1,8 @@
 # Easycharts
-Easycharts is a very easy chart component based on skiasarp library, which can be used in various platforms.
+Easycharts is a very simple Xamarin.Forms chart component based on skiasarp library, which can be used on various platforms.
+
+# Skiasharp  1.68.1.1
+# Xamarin.Forms 4.5.0.356
 
 # Screenshots
 
