@@ -40,22 +40,11 @@
         public override void DrawContent(SKCanvas canvas, int width, int height)
         {
 
-            //var valueLabelSizes = MeasureValueLabels();
-            //var footerHeight = CalculateFooterHeight(valueLabelSizes);
-            //var headerHeight = CalculateHeaderHeight(valueLabelSizes);
-            //var itemSize = CalculateItemSize(width, height, footerHeight, headerHeight);
-            //var origin = CalculateYOrigin(itemSize.Height, headerHeight);
-            //var points = this.CalculatePoints(itemSize, origin, headerHeight);
-            /*
-             this.DrawBarAreas(canvas, points, itemSize, headerHeight);
-            this.DrawBars(canvas, points, itemSize, origin, headerHeight);
-            this.DrawPoints(canvas, points);
-            this.DrawFooter(canvas, points, itemSize, height, footerHeight);
-            this.DrawValueLabel(canvas, points, itemSize, height, valueLabelSizes);
-             */
+            var labels = this.Entries.Select(x => x.Label).ToArray();
 
             //1080 368
-            var valueLabelSizes = MeasureValueLabels();
+            //var valueLabelSizes = MeasureValueLabels();
+            var valueLabelSizes = this.MeasureLabels(labels);
             //左宽 56
             var leftWidth = CalculateLeftWidth(valueLabelSizes);
             //右宽 65

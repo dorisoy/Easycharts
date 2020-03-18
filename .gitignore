@@ -18,3 +18,8 @@ Easycharts.Samples.Forms.Droid/bin/
 Easycharts.Samples.Droid/bin/
 Easycharts.iOS/bin/
 Easycharts.Samples.iOS/bin/
+Sources/Microcharts/obj/
+Sources/Microcharts.Samples.Droid/obj/
+Sources/Microcharts.Forms/obj/
+Sources/Microcharts.Droid/obj/
+Sources/Droid/obj/

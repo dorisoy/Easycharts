@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+  <ImportGroup Condition=" '$(TargetFramework)' == 'netstandard1.3' AND '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)\stylecop.msbuild\5.0.0\build\StyleCop.MSBuild.targets" Condition="Exists('$(NuGetPackageRoot)\stylecop.msbuild\5.0.0\build\StyleCop.MSBuild.targets')" />
+  </ImportGroup>
+  <ImportGroup Condition=" '$(TargetFramework)' == 'portable-net45+win8+wpa81+wp8' AND '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)\stylecop.msbuild\5.0.0\build\StyleCop.MSBuild.targets" Condition="Exists('$(NuGetPackageRoot)\stylecop.msbuild\5.0.0\build\StyleCop.MSBuild.targets')" />
+  </ImportGroup>
+</Project>

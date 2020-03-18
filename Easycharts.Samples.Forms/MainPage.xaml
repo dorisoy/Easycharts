@@ -28,6 +28,15 @@
             <easycharts:ChartView x:Name="chart7"
                                    HeightRequest="140"
                                    BackgroundColor="White" />
+            <easycharts:ChartView x:Name="chart8"
+                                  HeightRequest="140"
+                                  BackgroundColor="White" />
+            <easycharts:ChartView x:Name="chart9"
+                                  HeightRequest="140"
+                                  BackgroundColor="White" />
+            <easycharts:ChartView x:Name="chart10"
+                                  HeightRequest="140"
+                                  BackgroundColor="White" />
         </StackLayout>
     </ScrollView>
 </ContentPage>

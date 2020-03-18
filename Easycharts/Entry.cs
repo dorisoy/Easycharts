@@ -1,10 +1,13 @@
 ﻿namespace Easycharts
 {
 	using SkiaSharp;
+	using System;
+
 
 	/// <summary>
 	/// 用于表示图表的数据项
 	/// </summary>
+	[Obsolete("该类已过时，请改用ChartEntry类以避免与Xamarin.Forms.Entry冲突")]
 	public class Entry
 	{
 		#region Constructors
