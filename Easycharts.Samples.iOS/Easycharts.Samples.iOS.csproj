@@ -118,12 +118,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Easycharts.iOS\Easycharts.iOS.csproj">
-      <Project>{8657B9BF-9D8E-4D3A-A5B2-23E9C0161909}</Project>
-      <Name>Easycharts.iOS</Name>
-      <IsAppExtension>false</IsAppExtension>
-      <IsWatchApp>false</IsWatchApp>
-    </ProjectReference>
     <ProjectReference Include="..\Easycharts.Samples\Easycharts.Samples.csproj">
       <Project>{655b5b6f-a81b-4c24-b57e-b7165107fbb4}</Project>
       <Name>Easycharts.Samples</Name>

@@ -8,8 +8,8 @@
     <DocumentationFile>bin\Debug\netstandard1.4\Easycharts.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="SkiaSharp" Version="1.68.1.1" />
-    <PackageReference Include="StyleCop.MSBuild" Version="6.1.0">
+    <PackageReference Include="SkiaSharp" Version="1.68.3" />
+    <PackageReference Include="StyleCop.MSBuild" Version="6.2.0">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
